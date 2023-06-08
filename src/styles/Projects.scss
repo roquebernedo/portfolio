@@ -118,11 +118,11 @@
                     
                 }
                 @media (max-width: 375px) {
-                    justify-content: flex-start;
+                    
                     
                 }
                 @media (max-width: 320px) {
-                    justify-content: flex-start;
+                    
                 }
             }
 
@@ -143,7 +143,7 @@
                     font-size: 1.5rem;
                 }
                 @media (max-width: 375px) {
-                    font-size: 1.5rem;
+                    
                 }
             }
 
@@ -157,17 +157,17 @@
                 }
                 @media (max-width: 475px) {
                     
-                    font-size: 1.5rem;
+                    
                 }
                 @media (max-width: 425px) {
                     
                 }
                 @media (max-width: 375px) {
-                    margin-right: 85px;
+                    
                 }
                 @media (max-width: 320px) {
-                    margin-right: 95px;
-                    font-size: 15px;
+                   
+                    
                 }
             }
 
@@ -216,7 +216,7 @@
                                 margin: 2px;
                                 background-color: rgba(67,85,82,.576471);
                                 @media (max-width: 320px) {
-                                    font-size: 0.8rem;
+                                    
                                 }
                             }
                             .Ja{
@@ -319,7 +319,7 @@
                             margin: 2px;
                             background-color: rgba(67,85,82,.576471);
                             @media (max-width: 320px) {
-                                font-size: 0.9rem;
+                                
                             }
                             
                         }
@@ -505,11 +505,10 @@
                 justify-content: center;
             }
             .recipe{
-                border: 1px solid black;
+                box-shadow: 5px 10px 8px 10px #888888;
                 width: 600px;
                 height: 350px;
-                transition: transform 0.5s ease-in-out;
-                transform-style: preserve-3d;
+                
                 @media (max-width: 1280px) {
                     margin-left: 60px;
                 }
@@ -551,13 +550,7 @@
                 }
                 
             }
-            .recipe:hover {
-                transform: perspective(1000px) rotateX(-5deg) rotateY(5deg);
-              }
-              
-            .recipe:hover img {
-                transform: rotateY(10deg);
-            }
+            
         }
 
     }

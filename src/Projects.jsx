@@ -46,7 +46,7 @@ const Projects = () => {
                     
                 </div>
                 <div className='right'>
-                    <img className='recipe' src={require('./images/Recipeapp.JPG')} alt="" />
+                    <img className='recipe' src={require('./images/recipe.png')} alt="" />
                 </div>
             </div>  
 
