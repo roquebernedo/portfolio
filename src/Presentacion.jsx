@@ -21,7 +21,7 @@ const Presentacion = () => {
       <div className='top'>
 
         <Link to="https://www.linkedin.com/in/roquebernedo/" target='_blank' className='link'><FaLinkedinIn /></Link>
-        <Link to="https://github.com/roquebernedo" className='link'><BsGithub /></Link>
+        <Link to="https://github.com/roquebernedo/roquebernedo/tree/main" className='link'><BsGithub /></Link>
         <Link className='link'><BsYoutube /></Link>
         <Link to="https://drive.google.com/file/d/1c7WQ_bYOwvUxsFH8P9RKOnZi0dv8znu5/view" target='_blank'  className='link'><IoIosDocument /></Link>
         
