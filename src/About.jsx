@@ -16,15 +16,15 @@ const About = () => {
 
             <div className='resume'>
                 <div className='text'>
-                    A self-taught developer, I took a leap and trained in modern application development 
-                    not too long ago.
+                    A self-taught developer, i always felt curious about programming so i started studying 
+                    web development on my own.
                 </div>
                 <div className="text">
-                    With a positive attitude and an eagerness to pursue ambitious ideas, I quickly absorbed 
-                    new concepts and tackled challenges with confidence.
+                    Since then, I have dedicated my time and effort to improving my skills and knowledge by 
+                    working on projects that combine creative and effective solutions.
                 </div>
                 <div className="text">
-                    When not coding, you might find me playing chess, discovering new music, or learning a new 
+                    When i'm not coding, you might find me playing chess, discovering new music, or learning a new 
                     language.
                 </div>
                 <div className='butt'><Link to="https://drive.google.com/file/d/1c7WQ_bYOwvUxsFH8P9RKOnZi0dv8znu5/view?usp=share_link" target='_blank' className='resu'>Resume</Link></div>
