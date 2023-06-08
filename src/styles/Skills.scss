@@ -52,6 +52,9 @@
                 position: relative;
                 height: 315px;
                 width: 340px;
+                @media (max-width: 1370px) {
+                    margin-right: 160px;
+                }
                 @media (max-width: 1280px) {
                     margin-right: 130px;
                 }
@@ -153,6 +156,9 @@
             animation-name: aparecer-res;
             animation-duration: 0.8s;
             animation-timing-function: ease-out;
+            @media (max-width: 1370px) {
+                margin-right: 250px;
+            }
             @media (max-width: 1280px) {
                 
                 margin-right: 300px;
