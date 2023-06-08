@@ -149,7 +149,7 @@ const Skills = () => {
 
             
 
-            {showElement3 && (<div className="tools-burger">
+            {showElement3 && (<div className="tools-burger tool-back">
                 <div className='end'>
                     <div className='text'>
                         Back End

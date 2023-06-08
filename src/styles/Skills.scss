@@ -233,13 +233,14 @@
             animation-name: aparecer-fav;
             animation-duration: 0.8s;
             animation-timing-function: ease-out;
+            @media (max-width: 1370px) {
+                margin-right: 250px;
+            }
             @media (max-width: 1280px) {
-                
                 margin-right: 350px;
             }
             @media (max-width: 1024px) {
-                background-color: aqua;
-                margin-right: 750px;
+                margin-right: 836px;  
             }
             @media (max-width: 768px) {
                 margin-right: 960px;
@@ -263,6 +264,7 @@
                 margin-right: 385px;
             }
     
+
 
             @keyframes aparecer-fav {
                 from { opacity: 0; transform: translateX(70px); }
