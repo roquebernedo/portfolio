@@ -41,7 +41,7 @@ const Contact = () => {
                     <Link to="https://www.linkedin.com/in/roquebernedo/" target='_blank' className='as'><FaLinkedinIn /></Link>
                     <Link to="https://github.com/roquebernedo/roquebernedo/tree/main" className='as'><BsGithub /></Link>
                     <Link className='as'><BsYoutube /></Link>
-                    <Link to="https://drive.google.com/file/d/1c7WQ_bYOwvUxsFH8P9RKOnZi0dv8znu5/view" target='_blank' className='as'><IoIosDocument /></Link>
+                    <Link to="https://drive.google.com/file/d/1h_zNXJyjg6GxGxVwRo2GfTnctilv6smv/view?usp=sharing" target='_blank' className='as'><IoIosDocument /></Link>
                 </p>
             </div>
         </div>
