@@ -1,0 +1,52 @@
+import React from 'react'
+import "./styles/Contact.scss"
+import { Link } from 'react-router-dom'
+import { FaLinkedinIn } from "react-icons/fa"
+import { BsGithub, BsYoutube } from "react-icons/bs"
+import { IoIosDocument } from "react-icons/io"
+import { BiChevronUp } from "react-icons/bi"
+
+const Contact = () => {
+
+  function handleScroll() {
+    const skillsSection = document.getElementById('presentacion');
+    if (skillsSection) {
+        skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div className='main-contact' id='contact'>
+        <div className='contact'>
+            <div className='title'>
+                <h2>contact</h2>
+            </div>
+            <div className='form'>
+                <form action="">
+                    <input type="text" placeholder='Name' className='name'/>
+                    <input type="text" placeholder='Email' className='email'/>
+                    <textarea required name="message" placeholder='Message' rows="6"></textarea>
+                </form>
+            </div>
+            <div className='button'>
+                <Link className='send'>Send</Link>
+            </div>
+        </div>
+        <div className='footer'>
+            <div className='footer-bottom'>
+                <div className='button-des'>
+                    <Link onClick={() => handleScroll('presentacion')} className='as'><BiChevronUp/></Link>
+                </div>
+                <p className='icons'>
+                    <Link to="https://www.linkedin.com/in/roquebernedo/" target='_blank' className='as'><FaLinkedinIn /></Link>
+                    <Link to="https://github.com/roquebernedo" className='as'><BsGithub /></Link>
+                    <Link className='as'><BsYoutube /></Link>
+                    <Link to="https://drive.google.com/file/d/1c7WQ_bYOwvUxsFH8P9RKOnZi0dv8znu5/view?usp=share_link" target='_blank' className='as'><IoIosDocument /></Link>
+                </p>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Contact

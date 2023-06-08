@@ -1,0 +1,728 @@
+.main-skills{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
+    width: 100%;
+    height: 1050px;
+    max-width: 100%;
+    margin-bottom: 10px ;
+    padding-top: 40px;
+    @media (max-width: 640px) {
+        height: 1000px;
+        
+    }
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+        @media (max-width: 640px) {
+            margin-top: 80px; 
+        }
+        h2{
+            color: white;
+            font-size: 2.5rem;
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+            text-transform: uppercase;
+        }
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        width: 1250px;
+        justify-content: center;
+        margin-bottom: 175px;
+        padding-top: 25px;
+        
+        @media (max-width: 640px) {
+            flex-direction: column;
+            width: 0px;
+        }
+
+        .image{
+            display: flex;
+            width: 50%;
+            text-align: center;
+            position: relative;
+            justify-content: center;
+            
+            .burger{
+                position: relative;
+                height: 315px;
+                width: 340px;
+                @media (max-width: 1280px) {
+                    margin-right: 130px;
+                }
+                @media (max-width: 1024px) {
+                    margin-right: 150px;
+                }
+                @media (max-width: 768px) {
+                    margin-right: 10px;
+                }
+                @media (max-width: 640px) {
+                    margin-left: 160px;
+                }
+                @media (max-width: 512px) {
+                    margin-right: 120px;
+                }
+                @media (max-width: 475px) {
+                    margin-right: 140px;
+                }
+                @media (max-width: 425px) {
+                    margin-right: 190px;
+                }
+                @media (max-width: 375px) {
+                    margin-right: 240px;
+                }
+                @media (max-width: 320px) {
+                    margin-right: 300px;
+                    width: 320px;
+                }
+                
+            }
+            .elements{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                
+                align-items: center;
+                
+               
+              }
+              
+              .pre-ele1{
+                width: 340px;
+                height: 130px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+              
+              .element1{
+                width: 340px;
+                height: 130px;
+              }
+
+
+              
+              
+              .pre-ele2{
+                width: 340px;
+                height: 110px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+              .element2{
+                width: 340px;
+                height: 110px;
+              
+                
+              }
+              
+              .pre-ele3{
+                width: 340px;
+                height: 75px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+              .element3{
+                width: 340px;
+                height: 75px;
+              }
+              
+              
+        }
+
+        .resume{
+            position: relative;
+            width: 50%;
+            height: 185px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            margin-right: 90px;
+            animation-name: aparecer-res;
+            animation-duration: 0.8s;
+            animation-timing-function: ease-out;
+            @media (max-width: 1280px) {
+                
+                margin-right: 300px;
+            }
+            @media (max-width: 1024px) {
+                margin-right: 700px;
+            }
+            @media (max-width: 768px) {
+                margin-right: 950px;
+            }
+            @media (max-width: 640px) {
+                height: 550px;
+                margin-right: 130px;
+                margin-top: 30px;
+            }
+            @media (max-width: 512px) {
+                margin-right: 260px;
+            }
+            @media (max-width: 475px) {
+                margin-right: 280px;
+            }
+            @media (max-width: 425px) {
+                margin-right: 325px;
+            }
+            @media (max-width: 375px) {
+                margin-right: 380px;
+            }
+            @media (max-width: 320px) {
+                margin-right: 440px;
+            }
+
+            @keyframes aparecer-res {
+                from { opacity: 0; transform: translateX(-40px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            
+            
+            .text{
+
+                margin-bottom: 17px;
+                font-size: 25px;
+                padding-bottom: 30px;
+                @media (max-width: 1024px) {
+                    width: 400px;
+                }
+                @media (max-width: 768px) {
+                    width: 400px;
+                }
+                @media (max-width: 640px) {
+                    width: 300px;
+                }
+            }
+
+            .text-select{
+                margin-bottom: 10px;
+                font-size: 19px;
+                padding-bottom: 105px;
+                @media (max-width: 640px) {
+                    width: 300px;
+                }
+            }
+        }
+
+        .tools-burger{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 185px;
+            margin-right: 90px;
+            width: 50%;
+            padding-top: 80px;
+            animation-name: aparecer-fav;
+            animation-duration: 0.8s;
+            animation-timing-function: ease-out;
+            @media (max-width: 1280px) {
+                
+                margin-right: 350px;
+            }
+            @media (max-width: 1024px) {
+                background-color: aqua;
+                margin-right: 750px;
+            }
+            @media (max-width: 768px) {
+                margin-right: 960px;
+            }
+            @media (max-width: 640px) {
+                margin-top: 70px;
+            }
+            @media (max-width: 512px) {
+                margin-right: 200px;
+            }
+            @media (max-width: 475px) {
+                margin-right: 220px;
+            }
+            @media (max-width: 425px) {
+                margin-right: 280px;
+            }
+            @media (max-width: 375px) {
+                margin-right: 330px;
+            }
+            @media (max-width: 320px) {
+                margin-right: 385px;
+            }
+    
+
+            @keyframes aparecer-fav {
+                from { opacity: 0; transform: translateX(70px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            
+            .end{
+                margin-bottom: 17px;
+                font-size: 27px;
+                padding-top: 20px;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                color: white;
+                padding-bottom: 50px;
+                .text{
+
+                    
+                    @media (max-width: 640px) {
+                        margin-left: 70px;
+                        font-size: 25px;
+                        width: 110px;
+                    }
+                }
+            }
+            .top-fav{
+                padding-bottom: 100px;
+                margin-bottom: 70px;
+                height: 150px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media (max-width: 640px) {
+                    margin-left: 125px;
+                }
+
+                .text-select{
+                    height: 100px;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 40px;
+                    
+                    .box-java{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .jav{
+                            height: 70px;
+                            width: 70px;
+                        }
+                        .name-java{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                        }
+                    } 
+    
+                    .box-react{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .react{
+                            height: 55px;
+                            width: 55px;
+                            margin-top: 11px;
+                        }
+                        .name-react{
+                            text-align: center;
+                            color: white;
+                            padding-top: 7px;
+                            font-size: 16px;
+                        }
+                    }
+    
+                    .box-redux{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .redux{
+                            height: 60px;
+                            width: 60px;
+                            margin-top: 9px;
+                        }
+                        .name-redux{
+                            text-align: center;
+                            color: white;
+                            padding-top: 5px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .text-select2{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    height: 100px;
+                    gap: 40px;
+                    margin-top: 20px;
+                    padding-bottom: 25px;
+
+                    .box-html{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .html{
+                            height: 70px;
+                            width: 70px;
+                        }
+                        .name-html{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                        }
+                    } 
+
+                    .box-css{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .css{
+                            height: 70px;
+                            width: 70px;
+                        }
+                        .name-css{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                        }
+                    } 
+                }
+
+                .text-select{
+                    height: 100px;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 40px;
+                    font-size: 19px;
+                    
+                    
+    
+                    .box-express{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        margin-top: 10px;
+    
+                        .express{
+                            height: 55px;
+                            width: 55px;
+                            @media (max-width: 320px) {
+                                width: 38px;
+                            }
+                        }
+                        .name-express{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            padding-top: 7px;
+                        }
+                    } 
+    
+                    .box-node{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .node{
+                            height: 54px;
+                            width: 50px;
+                            margin-top: 11px;
+                            @media (max-width: 320px) {
+                                width: 38px;
+                            }
+                        }
+                        .name-node{
+                            text-align: center;
+                            color: white;
+                            padding-top: 9px;
+                            font-size: 16px;
+
+                        }
+                    }
+    
+                    .box-mysql{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .mysql{
+                            height: 55px;
+                            width: 55px;
+                            margin-top: 9px;
+                            @media (max-width: 320px) {
+                                width: 40px;
+                            }
+                        }
+                        .name-mysql{
+                            text-align: center;
+                            color: white;
+                            padding-top: 10px;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .box-mongodb{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        margin-top: 10px;
+    
+                        .mongodb{
+                            height: 50px;
+                            width: 50px;
+                            margin-top: 9px;
+                            @media (max-width: 320px) {
+                                width: 40px;
+                            }
+                        }
+                        .name-mongodb{
+                            text-align: center;
+                            color: white;
+                            padding-top: 8px;
+                            font-size: 16px;
+                        }
+                    }
+                    
+                    
+                }
+                .text-select2{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    height: 100px;
+                    gap: 40px;
+                    font-size: 19px;
+                    margin-top: 20px;
+                    padding-bottom: 25px;
+
+                    .box-restfulapi{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .restfulapi{
+                            height: 55px;
+                            width: 55px;
+                            
+                        }
+                        .name-restfulapi{
+                            
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            padding-top: 8px;
+                        }
+                    } 
+
+                    .box-strapi{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .strapi{
+                            height: 50px;
+                            width: 50px;
+                        }
+                        
+                        .name-strapi{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            padding-top: 10px;
+                        }
+                        
+                    } 
+                }
+
+                .text-select{
+                    height: 100px;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 40px;
+                    
+                    
+    
+                    .box-git{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        margin-top: 10px;
+    
+                        .git{
+                            height: 55px;
+                            width: 55px;
+                        }
+                        .name-git{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            padding-top: 7px;
+                        }
+                    } 
+    
+                    .box-heroku{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .heroku{
+                            height: 54px;
+                            width: 50px;
+                            margin-top: 11px;
+                        }
+                        .name-heroku{
+                            text-align: center;
+                            color: white;
+                            padding-top: 9px;
+                            font-size: 16px;
+
+                        }
+                    }
+    
+                    .box-mysql{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .mysql{
+                            height: 55px;
+                            width: 55px;
+                            margin-top: 9px;
+                        }
+                        .name-mysql{
+                            text-align: center;
+                            color: white;
+                            padding-top: 10px;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .box-mongodb{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        margin-top: 10px;
+    
+                        .mongodb{
+                            height: 50px;
+                            width: 50px;
+                            margin-top: 9px;
+                        }
+                        .name-mongodb{
+                            text-align: center;
+                            color: white;
+                            padding-top: 8px;
+                            font-size: 16px;
+                        }
+                    }
+
+                }
+                .text-select2{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    height: 100px;
+                    gap: 40px;
+                    margin-top: 20px;
+                    padding-bottom: 25px;
+
+                    .box-restfulapi{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .restfulapi{
+                            height: 55px;
+                            width: 55px;
+                            
+                        }
+                        .name-restfulapi{
+                            
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            padding-top: 8px;
+                        }
+                    } 
+
+                    .box-strapi{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+    
+                        .strapi{
+                            height: 50px;
+                            width: 50px;
+                        }
+                        .name-strapi{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            padding-top: 10px;
+                        }
+                    } 
+                }
+
+            }
+            
+
+                
+            
+        }
+            
+            
+    }
+}
+.hidden {
+    visibility: hidden;
+  }
+
