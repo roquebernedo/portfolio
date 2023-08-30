@@ -63,7 +63,7 @@ const Projects = () => {
                         </div>
                         <div className='desc'>
                             <div className='desc-son'> 
-                            Front-end of the Apleton, page music production software, especially their popular electronic
+                            Front-end of the Ableton, page music production software, especially their popular electronic
                             music creation and editing software called "Ableton Live". This enables musicians, producers, 
                             and artists to professionally create, record, edit, and mix music.
                             </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                         <div className='note'>
                             <div className='desc-son'>
                             Note: This App will be hosted on Vercel server. 
-                            It's a copy of Apleton, the Apleton Live software that is widely used in the music industry.
+                            It's a copy of Ableton, the Ableton Live software that is widely used in the music industry.
                             </div>
                         </div>
                         <div className='buttons-projects'>
