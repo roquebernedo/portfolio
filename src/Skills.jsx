@@ -156,7 +156,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='top-fav'>
-                    <div className="text-select">
+                    <div className="text-select-back">
                         <div className='box-express'>
                             <img className='express back' src={(require('./images/express.png'))} alt=''/>
                             <div className='name-express'>Express</div>
@@ -174,7 +174,7 @@ const Skills = () => {
                             <div className='name-mongodb'>MongoDB</div>
                         </div>      
                     </div>
-                    <div className="text-select2">
+                    <div className="text-select-back">
                         <div className='box-restfulapi'>
                             <img className='restfulapi back' src={(require('./images/restfulapi.png'))} alt=''/>
                             <div className='name-restfulapi'>RESTful API</div>
