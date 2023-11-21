@@ -23,7 +23,6 @@ const Skills = () => {
       };
     }
     const handleMouseLeave = () => {
-      
       setShowElement1(false);
       setShowElement2(false);
       setShowElement3(false);
@@ -31,14 +30,12 @@ const Skills = () => {
 
     };
 
-    
-
   return (
     <div className='main-skills' id='skills'>
-        <div className='top'>
+        <div className='top-skills'>
             <h2>Skills</h2>
         </div>
-        <div className='bottom'>
+        <div className='bottom-skills'>
             <div className='image'>
                 <img className='burger' src={imageSrc} alt='' onMouseEnter={() => setBurger(true)} onMouseLeave={() => setBurger(false)} />
                 <div className='elements'>
@@ -63,7 +60,7 @@ const Skills = () => {
             </div>
              
             {!showElement1 && !showElement2 && !showElement3 && (
-            <div className="resume">
+            <div className="resume-burger">
                 
                     <div className='text'>
                         "Programming is like a digital burger, full of layers of code that combine to create a delicious 
