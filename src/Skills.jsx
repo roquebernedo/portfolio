@@ -138,6 +138,10 @@ const Skills = () => {
                             <img className='css' src={(require('./images/vercel.png'))} alt=''/>
                             <div className='name-css'>Vercel</div>
                         </div>
+                        <div className='box-css'>
+                            <img className='css' src={(require('./images/netlify.jpg'))} alt=''/>
+                            <div className='name-css'>Netlify</div>
+                        </div>
                     </div>
                 </div>
                     

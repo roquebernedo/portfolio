@@ -14,15 +14,13 @@ const Projects = () => {
                     <div className='info'>
                         <div className='tech'>
                             <div className='tech-1 tools-1'>
-                                <div className='technologies-1 Ja'>JavaScript</div>
-                                <div className='technologies-2'>React</div>
-                                <div className='technologies-3 Css'>CSS</div>
-                                <div className='technologies-4 Strap'>Redux</div>
-                            </div>
-                            <div className='tech-2'>
-                                <div className='technologies-5 tool'>Node/Express</div>
-                                <div className='technologies-6 tool'>MongoDB</div>
-                                <div className='technologies-6 tool'>Stripe</div>
+                                <div className='tool'>JavaScript</div>
+                                <div className='tool'>React</div>
+                                <div className='tool'>CSS</div>
+                                <div className='tool'>Redux</div>
+                                <div className='tool'>Node/Express</div>
+                                <div className='tool'>MongoDB</div>
+                                <div className='tool'>Stripe</div>
                             </div>
                         </div>
                         <div className='desc'>
@@ -45,8 +43,8 @@ const Projects = () => {
                     </div>
                     
                 </div>
-                <div className='right'>
-                    <img className='recipe' src={require('./images/ecommerce.JPG')} alt="" />
+                <div className='rightEcomAble'>
+                    <img className='ecommerce' src={require('./images/dirsleystore.JPG')} alt="" />
                 </div>
             </div>
 
@@ -56,9 +54,9 @@ const Projects = () => {
                     <div className='info'>
                         <div className='tech'>
                             <div className='tech-1 tools-1'>
-                                <div className='technologies-1 Ja'>JavaScript</div>
-                                <div className='technologies-2'>React</div>
-                                <div className='technologies-3 Css'>CSS</div>
+                                <div className='tool'>JavaScript</div>
+                                <div className='tool'>React</div>
+                                <div className='tool'>CSS</div>
                             </div>
                         </div>
                         <div className='desc'>
@@ -81,29 +79,27 @@ const Projects = () => {
                     </div>
                     
                 </div>
-                <div className='right'>
-                    <img className='recipe' src={require('./images/Ableton.JPG')} alt="" />
+                <div className='rightEcomAble'>
+                    <img className='ableton' src={require('./images/Ableton.JPG')} alt="" />
                 </div>
             </div>
 
-            <div className='first-project'>
+            <div className='first-project2'>
                 <div className='left'>
-                    <h3 className='title-left left-recipe'>Recipe App</h3>
+                    <h3 className='title-left left-name'>Apleton</h3>
                     <div className='info'>
                         <div className='tech'>
                             <div className='tech-1'>
-                                <div className='technologies-1'>Oauth</div>
-                                <div className='technologies-2'>React</div>
-                                <div className='technologies-3'>JsonWebtoken</div>
-                                <div className='technologies-4'>Mapbox</div>
-                            </div>
-                            <div className='tech-2'>
-                                <div className='technologies-5'>Node/Express</div>
-                                <div className='technologies-6'>MongoDB</div>
+                                <div className='tool'>Oauth</div>
+                                <div className='tool'>React</div>
+                                <div className='tool'>JsonWebtoken</div>
+                                <div className='tool'>Mapbox</div>
+                                <div className='tool'>Node/Express</div>
+                                <div className='tool'>MongoDB</div>
                             </div>
                         </div>
                         <div className='desc'>
-                            <div className='desc-son'>
+                            <div className='desc-son'> 
                             An interactive, useful and very valuable kitchen tool where you can save your recipes
                             and share it to the world, you can share it with friends and family. This app can also be shared 
                             with social networks.
@@ -122,11 +118,10 @@ const Projects = () => {
                     </div>
                     
                 </div>
-                <div className='right'>
+                <div className='rightEcomAble'>
                     <img className='recipe' src={require('./images/recipe.png')} alt="" />
                 </div>
-            </div>  
-        
+            </div>
     </div>
   )
 }

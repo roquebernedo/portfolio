@@ -23,9 +23,9 @@ const Contact = () => {
             </div>
             <div className='form'>
                 <form action="">
-                    <input type="text" placeholder='Name' className='name'/>
-                    <input type="text" placeholder='Email' className='email'/>
-                    <textarea required name="message" placeholder='Message' rows="6"></textarea>
+                    <input type="text" placeholder='Name' className='name inputset'/>
+                    <input type="text" placeholder='Email' className='email inputset'/>
+                    <textarea className='message inputset' required name="message" placeholder='Message' rows="6"></textarea>
                 </form>
             </div>
             <div className='button'>

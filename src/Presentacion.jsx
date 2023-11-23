@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 
 
 const Presentacion = () => {
-
-  
   function handleScroll(page) {
     const skillsSection = document.getElementById(page);
     if (skillsSection) {
@@ -19,12 +17,10 @@ const Presentacion = () => {
   return (
     <div className='main' id='presentacion'>
       <div className='top'>
-
         <Link to="https://www.linkedin.com/in/roquebernedo/" target='_blank' className='link'><FaLinkedinIn /></Link>
         <Link to="https://github.com/roquebernedo/roquebernedo/tree/main" className='link'><BsGithub /></Link>
         <Link className='link'><BsYoutube /></Link>
         <Link to="https://drive.google.com/file/d/1h_zNXJyjg6GxGxVwRo2GfTnctilv6smv/view?usp=sharing" target='_blank'  className='link'><IoIosDocument /></Link>
-        
       </div>
       <div className='bottom'>
         <div className='box'>
@@ -37,9 +33,7 @@ const Presentacion = () => {
           </p>
         </div>
       </div>
-      
     </div>
-    
   )
 }
 
