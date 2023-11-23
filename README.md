@@ -4,16 +4,15 @@ My portfolio site was built from a Gatsby template, but i couldn't find it so i 
 
 ### `What i Changed`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+. Added Nav buttons to quickly get to your desired section
+. Added a new section for skills and changed section order (this messed with the original formatting quite a bit)
+. Skills feature: I built a component that renders a different image of a burger depending on where on the burger the cursor hovers or clicks. The burger images were created in photoshop. I built one div with the burger nested inside, that has a sibling div (position: absolute, same height and width as the img) with 3 child divs each taking up about one third of that div's height. Those three divs had event listeners that triggered state change in React, which rendered a new burger img and skills set. Each skills set had to be a different component to trigger the animation. My favorite part of the site.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `What i Learned`
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+. Created CSS Variables in SaSS
+. Learned how to use clip-path in CSS
+. Deployed a site to Netlify
 
 ### `yarn build`
 
