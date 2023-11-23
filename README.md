@@ -1,7 +1,6 @@
 # My Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+My portfolio site was built from a Gatsby template, but i couldn't find it so i made it from scratch(i didn't use Gatsby for this portfolio). It was my first time working on a portfolio, as well as working with SaSS.
 ## Available Scripts
 
 In the project directory, you can run:
