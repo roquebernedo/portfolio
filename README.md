@@ -18,6 +18,9 @@ Learned how to use clip-path in CSS
 
 Deployed a site to Netlify
 
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/roquebernedo/portfolio/main/src/images/burger_blank.png">
+
+
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
