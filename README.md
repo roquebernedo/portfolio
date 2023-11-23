@@ -12,11 +12,11 @@ My portfolio site was built from a Gatsby template, but i couldn't find it so i 
 
 ### `What i Learned`
 
-. Created CSS Variables in SaSS
+Created CSS Variables in SaSS
 
-. Learned how to use clip-path in CSS
+Learned how to use clip-path in CSS
 
-. Deployed a site to Netlify
+Deployed a site to Netlify
 
 ### `yarn build`
 
