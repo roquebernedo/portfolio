@@ -1,11 +1,8 @@
 # [My Portfolio Website](https://roquebernedo.netlify.app/)
 
 My portfolio site was built from a Gatsby template, but i couldn't find it so i made it from scratch(i didn't use Gatsby for this portfolio). It was my first time working on a portfolio, as well as working with SaSS.
-## Available Scripts
 
-In the project directory, you can run:
-
-### `yarn start`
+### `What i Changed`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
