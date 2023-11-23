@@ -4,11 +4,11 @@ My portfolio site was built from a Gatsby template, but i couldn't find it so i 
 
 ### `What i Changed`
 
-. Added Nav buttons to quickly get to your desired section
+Added Nav buttons to quickly get to your desired section
 
-. Added a new section for skills and changed section order (this messed with the original formatting quite a bit)
+Added a new section for skills and changed section order (this messed with the original formatting quite a bit)
 
-. Skills feature: I built a component that renders a different image of a burger depending on where on the burger the cursor hovers or clicks. The burger images were created in photoshop. I built one div with the burger nested inside, that has a sibling div (position: absolute, same height and width as the img) with 3 child divs each taking up about one third of that div's height. Those three divs had event listeners that triggered state change in React, which rendered a new burger img and skills set. Each skills set had to be a different component to trigger the animation. My favorite part of the site.
+Skills feature: I built a component that renders a different image of a burger depending on where on the burger the cursor hovers or clicks. The burger images were created in photoshop. I built one div with the burger nested inside, that has a sibling div (position: absolute, same height and width as the img) with 3 child divs each taking up about one third of that div's height. Those three divs had event listeners that triggered state change in React, which rendered a new burger img and skills set. Each skills set had to be a different component to trigger the animation.
 
 ### `What i Learned`
 
