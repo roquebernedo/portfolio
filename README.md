@@ -19,9 +19,9 @@ My portfolio site was built from a Gatsby template, but i couldn't find it so i 
   <li>Learned how to use clip-path in CSS</li>
   <li>Deployed a site to Netlify</li>
 </ul>
-<a align="center">
+<p align="center">
   <img align="center" style="display: flex, justify-content: center;" alt="Coding" width="400" src="https://raw.githubusercontent.com/roquebernedo/portfolio/main/src/images/burger_blank.png">
-</a>
+</p>
 
 
 
