@@ -2,6 +2,7 @@
     height: 789px;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
     
     .top{
         display: flex;
