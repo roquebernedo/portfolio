@@ -1,6 +1,7 @@
 # [My Portfolio Website 🍔](https://roquebernedo.netlify.app/)
 
-My portfolio site was built from a Gatsby template, but i couldn't find it so i made it from scratch(i didn't use Gatsby for this portfolio). It was my first time working on a portfolio, as well as working with SaSS.
+My portfolio is a combination of several examples that I saw from several experienced developers. 
+It was my first time working on a portfolio, as well as working with SaSS.
 
 ### `Portfolio Parts`
 
