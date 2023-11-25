@@ -32,7 +32,7 @@ const Projects = () => {
                         </div>
                         <div className='note'>
                             <div className='desc-son'>
-                            Note: This App will be hosted on Netlify server. Try to choose what suits you best and put it 
+                            Note: This App will be hosted on Netlify and Render server. Try to choose what suits you best and put it 
                             in the shopping cart
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
 
             <div className='first-project2'>
                 <div className='left'>
-                    <h3 className='title-left left-name'>Apleton</h3>
+                    <h3 className='title-left left-name'>Monogram Clone</h3>
                     <div className='info'>
                         <div className='tech'>
                             <div className='tech-1 tools-1'>
@@ -61,32 +61,33 @@ const Projects = () => {
                         </div>
                         <div className='desc'>
                             <div className='desc-son'> 
-                            Front-end of the Ableton, page music production software, especially their popular electronic
-                            music creation and editing software called "Ableton Live". This enables musicians, producers, 
-                            and artists to professionally create, record, edit, and mix music.
+                            Front-end of Monogram, Monogram is an innovative control surface designed to streamline editing
+                            and enhance interaction with creative software. With an intuitive and versatile design, Monogram
+                            is specifically crafted to facilitate photo editing, retouching, video editing, color correction,
+                            virtual production, audio/music production, and other creative workflows
                             </div>
                         </div>
                         <div className='note'>
                             <div className='desc-son'>
-                            Note: This App will be hosted on Vercel server. 
-                            It's a copy of Ableton, the Ableton Live software that is widely used in the music industry.
+                            Note: This App will be hosted on Netlify. 
+                            It's a clone of Monogram.
                             </div>
                         </div>
                         <div className='buttons-projects'>
-                            <div className='but'><Link to="https://apleton.vercel.app/" className='res'>See Live</Link></div>
-                            <div className='but'><Link to="https://github.com/roquebernedo/Apleton" className='res res-1'>Source Code</Link></div>
+                            <div className='but'><Link to="https://monogram-clone.netlify.app/" className='res'>See Live</Link></div>
+                            <div className='but'><Link to="https://github.com/roquebernedo/monogram" className='res res-1'>Source Code</Link></div>
                         </div>
                     </div>
                     
                 </div>
                 <div className='rightEcomAble'>
-                    <img className='ableton' src={require('./images/Ableton.JPG')} alt="" />
+                    <img className='ableton' src={require('./images/monogram.JPG')} alt="" />
                 </div>
             </div>
 
             <div className='first-project2'>
                 <div className='left'>
-                    <h3 className='title-left left-name'>Apleton</h3>
+                    <h3 className='title-left left-name'>Recipes App</h3>
                     <div className='info'>
                         <div className='tech'>
                             <div className='tech-1'>
@@ -120,6 +121,42 @@ const Projects = () => {
                 </div>
                 <div className='rightEcomAble'>
                     <img className='recipe' src={require('./images/recipe.png')} alt="" />
+                </div>
+            </div>
+
+            <div className='first-project2'>
+                <div className='left'>
+                    <h3 className='title-left left-name'>Ableton</h3>
+                    <div className='info'>
+                        <div className='tech'>
+                            <div className='tech-1 tools-1'>
+                                <div className='tool'>JavaScript</div>
+                                <div className='tool'>React</div>
+                                <div className='tool'>CSS</div>
+                            </div>
+                        </div>
+                        <div className='desc'>
+                            <div className='desc-son'> 
+                            Front-end of the Ableton, page music production software, especially their popular electronic
+                            music creation and editing software called "Ableton Live". This enables musicians, producers, 
+                            and artists to professionally create, record, edit, and mix music.
+                            </div>
+                        </div>
+                        <div className='note'>
+                            <div className='desc-son'>
+                            Note: This App will be hosted on Vercel server. 
+                            It's a copy of Ableton, the Ableton Live software that is widely used in the music industry.
+                            </div>
+                        </div>
+                        <div className='buttons-projects'>
+                            <div className='but'><Link to="https://apleton.vercel.app/" className='res'>See Live</Link></div>
+                            <div className='but'><Link to="https://github.com/roquebernedo/Apleton" className='res res-1'>Source Code</Link></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className='rightEcomAble'>
+                    <img className='ableton' src={require('./images/Ableton.JPG')} alt="" />
                 </div>
             </div>
     </div>
