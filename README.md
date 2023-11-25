@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# [My Portfolio Website 🍔](https://roquebernedo.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My portfolio is a combination of several examples that I saw from several experienced developers. 
+It was my first time working on a portfolio, as well as working with SaSS.
 
-## Available Scripts
+### `Portfolio Parts`
 
-In the project directory, you can run:
+<ul>
+  <li>Presentation: My presentation and nav buttons to quickly get to your desired section</li>
+  <li>Skills: There is a component that renders a different image of a burger depending on where on the burger the cursor hovers or clicks. I built one div with the burger nested inside, that has a sibling div(position: absolute, same height and width as the img) with 3 child divs each taking up about one third of that div's height. Those three divs had event listeners that triggered state change in React, which rendered a new burger img and skills et. Each skills set had to be a different component to trigger the animation</li>
+  <li>Projects: Section for my most important projects that I am working on</li>
+  <li>About: Information about me, nothing new to reveal</li>
+  <li>Contact: Built a Contact Form for any information</li>
+</ul>
 
-### `yarn start`
+### `What i Learned`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+  <li>Created CSS Variables in SaSS</li>
+  <li>Learned how to use clip-path in CSS</li>
+  <li>Deployed a site to Netlify</li>
+</ul>
+<p align="center">
+  <a href="https://roquebernedo.netlify.app/"><img align="center" style="display: flex, justify-content: center;" alt="Coding" width="400" src="https://raw.githubusercontent.com/roquebernedo/portfolio/main/src/images/burger_blank.png"></a>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
