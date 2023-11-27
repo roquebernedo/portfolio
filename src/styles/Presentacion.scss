@@ -1,3 +1,11 @@
+$main-color: #00cdac;
+$secondary-color: #272341;
+$hover-color: #fff;
+
+body{
+    font-family: Montserrat,sans-serif;
+}
+
 .main{
     height: 789px;
     display: flex;
@@ -18,7 +26,7 @@
             font-size: 28px;
             justify-content: center;
             transition: transform 0.2s ease-in-out;
-            color: #00cdac;
+            color: $main-color;
         }
 
         .link:hover{
@@ -42,14 +50,13 @@
     @media (max-width: 6400px) {
         padding-bottom: 158px;
     }
-
     @keyframes aparecer-pre {
         from { opacity: 0; transform: translateX(-30px); }
         to { opacity: 1; transform: translateY(0); }
     }
 
     .box{
-        color: #272341;
+        color: $secondary-color;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -58,8 +65,8 @@
         }
 
         h1{
-            font-size: 3.6rem;
-            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+            font-size: 3.5rem;
+            font-weight: 700;
             line-height: 1.2;
             @media (max-width: 640px) {
                 font-size: 3.4rem;
@@ -94,19 +101,19 @@
                 font-weight: 700;
                 border: 2px solid;
                 border-image: linear-gradient(135deg, #02aab0, #00cdac) 1;
-                color: #00cdac;
+                color: $main-color;
                 text-decoration: none;
                 padding: 4px 22px;
                 cursor: pointer;
                 transition: all 0.3s ease;
-                font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                
                 @media (max-width: 640px) {
                     width: 90px;
                 }
             }
 
             .buttons:hover{
-                color: white;
+                color: $hover-color;
                 background-image: linear-gradient(135deg, #02aab0, #00cdac);
             }
         }
