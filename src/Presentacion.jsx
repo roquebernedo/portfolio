@@ -24,10 +24,10 @@ const Presentacion = () => {
       </div>
       <div className='bottom'>
         <div className='box'>
-          <h1>Hi, I'm <span>Roque</span><br/>I'm a full stack developer</h1>
+          <h1>Hi, I'm <span>Roque.</span><br/>I'm a full stack developer.</h1>
           <p>
             <Link delay={1000} onClick={() => handleScroll('skills')} className='buttons'>Skills</Link>
-            <Link smooth duration={1000} onClick={() => handleScroll("projects")} className='buttons'>Projects</Link>
+            <Link duration={1000} onClick={() => handleScroll("projects")} className='buttons'>Projects</Link>
             <Link onClick={() => handleScroll("about")} className='buttons'>About</Link>
             <Link onClick={() => handleScroll("contact")} className='buttons'>Contact</Link>
           </p>

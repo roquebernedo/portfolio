@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    overflow-y: hidden;
     
     .top{
         display: flex;
@@ -40,19 +41,12 @@ body{
     height: 700px;
     display: flex;
     padding-left: 230px;
-    animation-name: aparecer-pre;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
     @media (max-width: 1280px) {
         text-align: center;
         justify-content: center;
     }
     @media (max-width: 6400px) {
         padding-bottom: 158px;
-    }
-    @keyframes aparecer-pre {
-        from { opacity: 0; transform: translateX(-30px); }
-        to { opacity: 1; transform: translateY(0); }
     }
 
     .box{
@@ -68,8 +62,19 @@ body{
             font-size: 3.5rem;
             font-weight: 700;
             line-height: 1.2;
+            margin-bottom: 15px;
+            opacity: 0;
+            animation-delay: 0.5s;
+            animation-name: aparecer-title;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-fill-mode: forwards;
             @media (max-width: 640px) {
                 font-size: 3.4rem;
+            }
+            @keyframes aparecer-title {
+                from { opacity: 0; transform: translateX(-30px); }
+                to { opacity: 1; transform: translateY(0); }
             }
 
             span{
@@ -82,11 +87,16 @@ body{
 
         p{
             display: flex;
-            height: 55px;
             position: relative;
-            padding-right: 180px;
+            padding-right: 210px;
             align-items: center;
             justify-content: center;
+            opacity: 0;
+            animation-delay: 1s;
+            animation-name: aparecer-links;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-fill-mode: forwards;
             @media (max-width: 1280px) {
                 padding-right: 0px;
             }
@@ -94,6 +104,10 @@ body{
                 display: flex;
                 flex-direction: column;
                 padding-top: 50px;
+            }
+            @keyframes aparecer-links{
+                from { opacity: 0; transform: translateY(30px); }
+                to { opacity: 1; transform: translateY(0); }
             }
 
             .buttons{
@@ -106,9 +120,8 @@ body{
                 padding: 4px 22px;
                 cursor: pointer;
                 transition: all 0.3s ease;
-                
                 @media (max-width: 640px) {
-                    width: 90px;
+                    width: 120px;
                 }
             }
 

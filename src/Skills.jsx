@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './styles/Skills.scss'
+import ToolBox from './components/ToolBox'
+import ToolsBurger from './components/ToolsBurger';
 
 const Skills = () => {
     
@@ -64,128 +66,56 @@ const Skills = () => {
                     <div className='text'>
                         "Programming is like a digital burger, full of layers of code that combine to create a delicious 
                         experience for the user." 
-                        
                     </div>
                     <div className="text-select">
                         Select a layer on the burger to show stack skills.
                     </div>
             </div>
             )}
-            {showElement1 && (<div className="tools-burger">
-                <div className='end'>
-                    <div className='text'>
-                        Front End
-                    </div>
-                </div>
-                <div className='top-fav'>
-                    <div className="text-select-all">
-                        <div className='box-java common-box'>
-                            <div className='div-icon'><img className='jav' src={(require('./images/javascript.png'))} alt=''/></div>
-                            <div className='name-java common-name'>JavaScript</div>
-                        </div>
-                        <div className='box-react common-box'>
-                            <div className='div-icon'><img className='react' src={(require('./images/react.png'))} alt=''/></div>
-                                <div className='name-react common-name'>React</div>
-                            </div>    
-                        <div className='box-redux common-box'>
-                            <div className='div-icon'><img className='redux' src={(require('./images/redux.png'))} alt=''/></div>
-                            <div className='name-redux common-name'>Redux</div>
-                        </div>     
-                    </div>
-                    <div className="text-select-all">
-                        <div className='box-html common-box'>
-                            <div className='div-icon'><img className='html' src={(require('./images/html5.png'))} alt=''/></div>
-                            <div className='name-html common-name'>HTML5</div>
-                        </div>
-                        <div className='box-css common-box'>
-                            <div className='div-icon'><img className='css' src={(require('./images/css.png'))} alt=''/></div>
-                            <div className='name-css common-name'>CSS3</div>
-                        </div>
-                    </div>
-                </div>
-                    
-            </div>
+            {showElement1 && (
+            <ToolsBurger 
+                titleTools={'Front End'} 
+                mainChildren={[
+                    <ToolBox key='java' toolClass={'jav'} imgIcon={require('./images/javascript.png')} toolName={'Javascript'}/>,
+                    <ToolBox key='react' toolClass={'react'} imgIcon={require('./images/react.png')} toolName={'React'}/>,
+                    <ToolBox key='redux' toolClass={'redux'} imgIcon={require('./images/redux.png')} toolName={'Redux'}/>
+                ]}
+                additionalChildren={[
+                    <ToolBox key='html' toolClass={'html'} imgIcon={require('./images/html5.png')} toolName={'HTML5'}/>,
+                    <ToolBox key='css' toolClass={'css'} imgIcon={require('./images/css.png')} toolName={'CSS3'}/>
+                ]}
+            />  
             )}
 
-            
-
-            {showElement2 && (<div className="tools-burger">
-                <div className='end'>
-                    <div className='text'>
-                        Tools
-                    </div>
-                </div>
-                <div className='top-fav'>
-                    <div className="text-select-all">
-                        <div className='box-git common-box'>
-                            <div className='div-icon'><img className='git' src={(require('./images/git.png'))} alt=''/></div>
-                            <div className='name-git common-name'>Git</div>
-                        </div>
-                        <div className='box-heroku common-box'>
-                            <div className='div-icon'><img className='heroku' src={(require('./images/heroku.png'))} alt=''/></div>
-                            <div className='name-heroku common-name'>Heroku</div>
-                        </div>    
-                          
-                    </div>
-                    <div className="text-select-all">
-                        <div className='box-oauth common-box'>
-                            <div className='div-icon'><img className='oauth' src={(require('./images/id.png'))} alt=''/></div>
-                            <div className='name-oauth common-name'>OAuth</div>
-                        </div>
-                        <div className='box-vercel common-box'>
-                            <div className='div-icon'><img className='vercel' src={(require('./images/vercel.png'))} alt=''/></div>
-                            <div className='name-vercel common-name'>Vercel</div>
-                        </div>
-                        <div className='box-netlify common-box'>
-                            <div className='div-icon'><img className='netlify' src={(require('./images/netlify.jpg'))} alt=''/></div>
-                            <div className='name-netlify common-name'>Netlify</div>
-                        </div>
-                    </div>
-                </div>
-                    
-            </div>
+            {showElement2 && (
+            <ToolsBurger 
+                titleTools={'Tools'} 
+                mainChildren={[
+                    <ToolBox key='html' toolClass={'git'} imgIcon={require('./images/git.png')} toolName={'Git'}/>,
+                    <ToolBox key='css' toolClass={'heroku'} imgIcon={require('./images/heroku.png')} toolName={'Heroku'}/>
+                ]}
+                additionalChildren={[
+                    <ToolBox key='java' toolClass={'oauth'} imgIcon={require('./images/id.png')} toolName={'OAuth'}/>,
+                    <ToolBox key='react' toolClass={'vercel'} imgIcon={require('./images/vercel.png')} toolName={'Vercel'}/>,
+                    <ToolBox key='redux' toolClass={'netlify'} imgIcon={require('./images/netlify.jpg')} toolName={'Netlify'}/>
+                ]}
+            /> 
             )}
 
-            
-
-            {showElement3 && (<div className="tools-burger tool-back">
-                <div className='end'>
-                    <div className='text'>
-                        Back End
-                    </div>
-                </div>
-                <div className='top-fav'>
-                    <div className="text-select-all">
-                        <div className='box-express common-box'>
-                            <div className='div-icon'><img className='express back' src={(require('./images/express.png'))} alt=''/></div>
-                            <div className='name-express common-name'>Express</div>
-                        </div>
-                        <div className='box-node common-box'>
-                            <div className='div-icon'><img className='node back' src={(require('./images/node.png'))} alt=''/></div>
-                            <div className='name-node common-name'>Node</div>
-                        </div>    
-                        <div className='box-mysql common-box'>
-                            <div className='div-icon'><img className='mysql back' src={(require('./images/mysql.png'))} alt=''/></div>
-                            <div className='name-mysql common-name'>MySql</div>
-                        </div>     
-                    </div>
-                    <div className="text-select-all">
-                        <div className='box-restfulapi common-box'>
-                            <div className='div-icon'><img className='restfulapi back' src={(require('./images/restfulapi.png'))} alt=''/></div>
-                            <div className='name-restfulapi common-name'>RESTful API</div>
-                        </div>
-                        <div className='box-strapi common-box'>
-                            <div className='div-icon'><img className='strapi back' src={(require('./images/strapi.png'))} alt=''/></div>
-                            <div className='name-strapi common-name'>Strapi</div>
-                        </div>
-                        <div className='box-mongodb common-box'>
-                            <div className='div-icon'><img className='mongodb back' src={(require('./images/mongodb.png'))} alt=''/></div>
-                            <div className='name-mongodb common-name'>MongoDB</div>
-                        </div> 
-                    </div>
-                </div>
-                    
-            </div>
+            {showElement3 && (
+            <ToolsBurger 
+                titleTools={'Back End'}
+                mainChildren={[
+                    <ToolBox key='express' toolClass={'express'} imgIcon={require('./images/express.png')} toolName={'Express'}/>,
+                    <ToolBox key='node' toolClass={'node'} imgIcon={require('./images/node.png')} toolName={'Node'}/>,
+                    <ToolBox key='mysql' toolClass={'mysql'} imgIcon={require('./images/mysql.png')} toolName={'MySql'}/>
+                ]} 
+                additionalChildren={[
+                    <ToolBox key='restfulapi' toolClass={'restfulapi'} imgIcon={require('./images/restfulapi.png')} toolName={'RESTful API'}/>,
+                    <ToolBox key='strapi' toolClass={'strapi'} imgIcon={require('./images/strapi.png')} toolName={'Strapi'}/>,
+                    <ToolBox key='mongodb' toolClass={'mongodb'} imgIcon={require('./images/mongodb.png')} toolName={'MongoDB'}/>
+                ]}
+            />
             )}
             
         </div>
