@@ -5,10 +5,10 @@ const Project = ({ title, tools, introduction, render, webDirection, gitDirectio
     return(
         <div className='first-project2'>
             <div className='left'>
-                <h3 className='title-left left-name'>{title}</h3>
+                <h3 className='title-left'>{title}</h3>
                 <div className='info'>
                     <div className='tech'>
-                        <div className='tech-1 tools-1'>
+                        <div className='tech-1'>
                             {tools}
                         </div>
                     </div>

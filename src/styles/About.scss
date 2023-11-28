@@ -1,3 +1,8 @@
+$color-three: #fff;
+$color-four: #00cdac;
+$color-five: #02aab0;
+$color-six: black;
+
 body{
     overflow-x: hidden;
 }
@@ -5,7 +10,7 @@ body{
 .main-about{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(135deg,rgb(3, 170, 176),#00cdac);
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
     padding-bottom: 200px;
     clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
     @media (max-width: 640px) {

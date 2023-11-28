@@ -1,9 +1,21 @@
-$main-color: #00cdac;
-$secondary-color: #272341;
-$hover-color: #fff;
+:root{
+    --color-one: #272341;
+    --color-two: #888888;
+    --color-three: #fff;
+    --color-four: #00cdac;
+    --color-five: #02aab0;
+    --color-six: #000000;
+
+    --light-weight: 200;
+    --heavy-weight: 500;
+    --strongth-weight: 600;
+    --hard-weight: 700;
+
+    --rootFontFamily: Montserrat,sans-serif;
+}
 
 body{
-    font-family: Montserrat,sans-serif;
+    font-family: var(--rootFontFamily);
 }
 
 .main{
@@ -27,7 +39,7 @@ body{
             font-size: 28px;
             justify-content: center;
             transition: transform 0.2s ease-in-out;
-            color: $main-color;
+            color: var(--color-four);
         }
 
         .link:hover{
@@ -50,7 +62,7 @@ body{
     }
 
     .box{
-        color: $secondary-color;
+        color: var(--color-one);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -78,7 +90,7 @@ body{
             }
 
             span{
-                background-image: linear-gradient(135deg, #02aab0, #00cdac);
+                background-image: linear-gradient(135deg, var(--color-five), var(--color-four));
                 background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -114,8 +126,8 @@ body{
                 font-size: 1.5rem;
                 font-weight: 700;
                 border: 2px solid;
-                border-image: linear-gradient(135deg, #02aab0, #00cdac) 1;
-                color: $main-color;
+                border-image: linear-gradient(135deg, var(--color-five), var(--color-four)) 1;
+                color: var(--color-four);
                 text-decoration: none;
                 padding: 4px 22px;
                 cursor: pointer;
@@ -126,8 +138,8 @@ body{
             }
 
             .buttons:hover{
-                color: $hover-color;
-                background-image: linear-gradient(135deg, #02aab0, #00cdac);
+                color: var(--color-three);
+                background-image: linear-gradient(135deg, var(--color-five), var(--color-four));
             }
         }
     }
