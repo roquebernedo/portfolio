@@ -27,7 +27,7 @@ const About = () => {
                     When i'm not coding, you might find me playing chess, discovering new music, or learning a new 
                     language.
                 </div>
-                <div className='butt'><Link to="https://drive.google.com/file/d/1h_zNXJyjg6GxGxVwRo2GfTnctilv6smv/view?usp=sharing" target='_blank' className='resu'>Resume</Link></div>
+                <div className='butt'><Link to="https://drive.google.com/file/d/1W5MdmecfB5nSttV_fPZRMB__1FPc85mG/view" target='_blank' className='resu'>Resume</Link></div>
             </div>
         </div>
     </div>
