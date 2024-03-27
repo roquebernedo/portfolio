@@ -23,8 +23,8 @@ const Project = ({ title, tools, introduction, render, webDirection, gitDirectio
                         </div>
                     </div>
                     <div className='buttons-projects'>
-                        <div className='but'><Link to={webDirection} className='res'>See Live</Link></div>
-                        <div className='but'><Link to={gitDirection} className='res res-1'>Source Code</Link></div>
+                        <div className='but'><Link to={webDirection} target='_blank' className='res'>See Live</Link></div>
+                        <div className='but'><Link to={gitDirection} target='_blank' className='res res-1'>Source Code</Link></div>
                     </div>
                 </div>   
             </div>
