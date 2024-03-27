@@ -4,36 +4,6 @@ import Project from './components/Project'
 import Tool from './components/Tool'
 
 const firstTool = ['Javascript', 'React', 'CSS', 'Redux', 'Node/Express', 'MongoDB', 'Stripe']
-const first = [
-    {
-        name: 'Javascript',
-        color: '#dace27'
-    },
-    {
-        name: 'React',
-        color: '#17969b'
-    },
-    {
-        name: 'CSS',
-        color: '#1641b9'
-    },
-    {
-        name: 'Redux',
-        color: '#6740af'
-    },
-    {
-        name: 'Node/Express',
-        color: '#0a4208'
-    },
-    {
-        name: 'MongoDB',
-        color: '#20831d'
-    },
-    {
-        name: 'Stripe',
-        color: '#8749d8'
-    },
-]
 const secondTool = ['Javascript', 'React', 'CSS']
 const thirdTool = ['Oauth', 'React', 'JsonWebtoken', 'Node/Express', 'MongoDB']
 const fourthTool = ['Javascript', 'React', 'CSS']
@@ -47,7 +17,7 @@ const Projects = () => {
 
         <Project
             title={'E-commerce'}
-            tools={first.map((tools, index) => <Tool key={index} tool={tools.name} color={tools.color}/>)}
+            tools={firstTool.map((tools, index) => <Tool key={index} tool={tools}/>)}
             introduction={"An eCommerce site attempting to fill the world's insatiable need for all things, videogames, consoles, laptops and much more. We closely followed and emulated the top online videogames store experiences to deliver a fun, original website."}
             render={'Note: This App will be hosted on Netlify and Render server. Try to choose what game you like and put it in the shopping cart'}
             webDirection={'https://ecommerce-rq.netlify.app/'}
