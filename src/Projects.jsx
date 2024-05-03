@@ -20,7 +20,7 @@ const Projects = () => {
             tools={firstTool.map((tools, index) => <Tool key={index} tool={tools}/>)}
             introduction={"An eCommerce site attempting to fill the world's insatiable need for all things, videogames, consoles, laptops and much more. We closely followed and emulated the top online videogames store experiences to deliver a fun, original website."}
             render={'Note: This App will be hosted on Netlify and Render server. Try to choose what game you like and put it in the shopping cart'}
-            webDirection={'https://ecommerce-rq.netlify.app/'}
+            webDirection={'https://ecommercerq.netlify.app/'}
             gitDirection={'https://github.com/roquebernedo/E-commerce'}
             titleImg={'ecommerce'}
             imgDirection={require('./images/toPortfolio.JPG')}
