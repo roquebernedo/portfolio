@@ -3,7 +3,7 @@ import './styles/Skills.scss'
 import ToolBox from './components/ToolBox'
 import ToolsBurger from './components/ToolsBurger';
 
-const Skills = () => {
+const Skills = ({ change }) => {
     
     const [showElement1, setShowElement1] = useState(false);
     const [showElement2, setShowElement2] = useState(false);
@@ -64,11 +64,17 @@ const Skills = () => {
             {!showElement1 && !showElement2 && !showElement3 && (
             <div className="resume-burger">
                     <div className='text'>
-                        "Programming is like a digital burger, full of layers of code that combine to create a delicious 
-                        experience for the user." 
+                        {change 
+                            ? "Programming is like a digital burger, full of layers of code that combine to create a delicious experience for the user."
+                            : "Programacion es como una hamburguesa digital, repleta de capas de codigo que combinan para crear una deliciosa experiencia para el usuario."
+                        }
+                        
                     </div>
                     <div className="text-select">
-                        Select a layer on the burger to show stack skills.
+                        {change
+                            ? "Select a layer on the burger to show stack skills."
+                            : "Selecciona una capa en la hamburguesa para mostrar el stack de habilidades"
+                        }
                     </div>
             </div>
             )}
