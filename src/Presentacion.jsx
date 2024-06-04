@@ -21,7 +21,7 @@ const Presentacion = ({ change, changeLanguageToEnglish, changeLanguageToSpanish
           <Link to="https://www.linkedin.com/in/roquebernedo/" target='_blank' className='link'><FaLinkedinIn /></Link>
           <Link to="https://github.com/roquebernedo/roquebernedo/tree/main" target='_blank' className='link'><BsGithub /></Link>
           <Link className='link'><BsYoutube /></Link>
-          <Link to="https://drive.google.com/file/d/1W5MdmecfB5nSttV_fPZRMB__1FPc85mG/view" target='_blank'  className='link'><IoIosDocument /></Link>
+          <Link to="https://drive.google.com/file/d/1c2tDfNTJvI6jDRLy1HrSkG77Da5bIFRw/view?usp=sharing" target='_blank'  className='link'><IoIosDocument /></Link>
       </div>
       <div className='bottom'>
         <div className='box'>
