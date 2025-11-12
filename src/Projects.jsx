@@ -7,6 +7,7 @@ const firstTool = ['Javascript', 'React', 'CSS', 'Redux', 'Node/Express', 'Mongo
 const secondTool = ['Javascript', 'React', 'CSS']
 const thirdTool = ['Oauth', 'React', 'JsonWebtoken', 'Node/Express', 'MongoDB']
 const fourthTool = ['Javascript', 'React', 'CSS']
+const fifthTool = ['Javascript', 'React', 'CSS', 'Node/Express', 'MongoDB']
 
 const Projects = ({ change }) => {
   return (
@@ -32,6 +33,25 @@ const Projects = ({ change }) => {
             gitDirection={'https://github.com/roquebernedo/E-commerce'}
             titleImg={'ecommerce'}
             imgDirection={require('./images/toPortfolio.JPG')}
+        />
+
+        <Project 
+            title={'Hotel Blanco'}
+            tools={fifthTool.map((tools, index) => <Tool key={index} tool={tools}/>)}
+            introduction={
+                change
+                    ? "Hotel management system deveolped to efficiently manage hotel operations. It allows for the registration and control guests, reservations, and finances, applying best development practices and SOLID principles."
+                    : "Sistema de gestion hotelera desarrollado para administrar de manera eficiente las operacion del hotel. Permite registrar y controlar clientes, reservas y finanzas, aplicando buenas practicas de desarrollo y principios SOLID. "
+            }
+            render={
+                change
+                    ? "Note: This App is still under construction, So stay patient and keep an eye on things 😜"
+                    : "Nota: Esta App esta aun bajo construccion, asi que mantente paciente y pendiente 😜"
+            }
+            webDirection={'https://rqhotel.netlify.app/'}
+            gitDirection={'https://github.com/roquebernedo/HotelManagementApp/tree/master'}
+            titleImg={'hotel'}
+            imgDirection={require('./images/HotelBlanco.jpg')}
         />
 
         <Project 
