@@ -48,7 +48,7 @@ const Projects = ({ change }) => {
                     ? "Note: This App is still under construction, So stay patient and keep an eye on things 😜"
                     : "Nota: Esta App esta aun bajo construccion, asi que mantente paciente y pendiente 😜"
             }
-            webDirection={'https://rqhotel.netlify.app/'}
+            webDirection={'https://roanhotel.netlify.app'}
             gitDirection={'https://github.com/roquebernedo/HotelManagementApp/tree/master'}
             titleImg={'hotel'}
             imgDirection={require('./images/HotelBlanco.jpg')}
